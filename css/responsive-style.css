@@ -1,0 +1,49 @@
+@media(max-width:991px){
+    .text-content{
+        width: 100%;
+        font-size: 2.1875rem;
+    }
+   
+    .navigation-wrap .navbar-brand img{
+            height: 3.8125rem;
+            background: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875;
+         color: var(--black-color);
+
+    }
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+    .testimonial-section .carousel-item p{
+        padding: 0;
+    }
+
+    .footer .footer-social a i{
+        padding: 0 0.75rem;
+    }
+}
+
+@media(max-width:767px){
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 1.3rem;
+        line-height: 28px;
+    }
+    .top-banner{
+        padding: 10.375rem 0 9.375rem;
+    }
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    } 
+}
+
+
+@media(max-width:330px){
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    } 
+}
